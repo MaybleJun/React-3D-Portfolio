@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import  styled  from "styled-components"
 import Hero from "./components/Hero"
 import About from "./components/About"
 import Works from "./components/Works"
