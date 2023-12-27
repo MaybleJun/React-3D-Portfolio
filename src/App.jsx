@@ -11,7 +11,9 @@ const Container = styled.div`
     overflow-y: auto;
     scrollbar-width: none;
     color: white;
-    background: url("./img/b10.jpg");
+    background: url("./img/backSmall.jpg");
+    background-size: cover;
+
     &::-webkit-scrollbar{
       display: none;
     }
@@ -26,7 +28,7 @@ function App() {
       <Works/>
       <Contacts/>
     </Container>
-  )
+  );
 }
 
-export default App
+export default App;
